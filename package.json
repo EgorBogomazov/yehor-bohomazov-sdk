@@ -1,0 +1,23 @@
+{
+  "name": "custom-sdk-js",
+  "version": "1.0.0",
+  "description": "Test assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ybohomazov/custom-sdk-js.git"
+  },
+  "author": "Red Rocket Software",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ybohomazov/custom-sdk-js/issues"
+  },
+  "homepage": "https://github.com/ybohomazov/custom-sdk-js#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
