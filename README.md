@@ -1,15 +1,15 @@
-# custom-sdk-js
+# yehor-bohomazov-sdk
 
 ## Install
 
 ```sh
-$ npm install custom-sdk-js
+$ npm install yehor-bohomazov-sdk
 ```
 
 or
 
 ```sh
-$ yarn add custom-sdk-js
+$ yarn add yehor-bohomazov-sdk
 ```
 
 ## Usage:
@@ -17,7 +17,7 @@ $ yarn add custom-sdk-js
 ### Get all books
 
 ```js
-import { getBookChapters, getBookItem, getBooks } from "custom-sdk-js";
+import { getBookChapters, getBookItem, getBooks } from "yehor-bohomazov-sdk";
 
 const request = async () => {
   const books = await getBooks();
