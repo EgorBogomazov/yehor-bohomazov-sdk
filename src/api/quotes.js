@@ -2,18 +2,18 @@ import axios from "axios";
 import { URL } from "../config/constants";
 import { headers } from "../config";
 
-export const getChapters = async () => {
+export const getQuotes = async () => {
   try {
-    const response = await axios.get(URL.CHAPTERS, { headers });
+    const response = await axios.get(URL.QUOTES, { headers });
     return response.data;
   } catch (e) {
     return e;
   }
 };
 
-export const getChapterItem = async (id) => {
+export const getQuotesItem = async (id) => {
   try {
-    const response = await axios.get(URL.CHAPTERS_ITEM(id), { headers });
+    const response = await axios.get(URL.QUOTES_ITEM(id), { headers });
     return response.data;
   } catch (e) {
     return e;

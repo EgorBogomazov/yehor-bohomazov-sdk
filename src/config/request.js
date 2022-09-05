@@ -1,5 +1,7 @@
-import {token} from "./constants";
+import { token } from "./constants";
 
 export const headers = {
-  Authorization: `Baear ${token}`,
-}
+  Authorization: `Bearer ${token}`
+};
+
+
