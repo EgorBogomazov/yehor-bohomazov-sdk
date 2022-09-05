@@ -1,6 +1,6 @@
 {
   "name": "custom-sdk-js",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Test assignment",
   "main": "index.js",
   "scripts": {

@@ -8,7 +8,7 @@ export {
   // Chapters
   getChapters, getChapterItem,
   // Quotes,
-  getQuotes, getQuotesItem,
+  getQuotes, getQuoteItem,
 } from './src/api';
 
 

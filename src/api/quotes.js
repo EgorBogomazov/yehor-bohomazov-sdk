@@ -11,7 +11,7 @@ export const getQuotes = async () => {
   }
 };
 
-export const getQuotesItem = async (id) => {
+export const getQuoteItem = async (id) => {
   try {
     const response = await axios.get(URL.QUOTES_ITEM(id), { headers });
     return response.data;
