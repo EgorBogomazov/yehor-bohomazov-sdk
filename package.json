@@ -1,6 +1,6 @@
 {
-  "name": "custom-sdk-js",
-  "version": "1.0.13",
+  "name": "yehor-bohomazov-sdk",
+  "version": "1.0.0",
   "description": "Test assignment",
   "main": "index.js",
   "scripts": {

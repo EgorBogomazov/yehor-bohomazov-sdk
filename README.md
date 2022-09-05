@@ -16,7 +16,7 @@ $ yarn add custom-sdk-js
 
 ### Get all books
 
-```sh
+```js
 import { getBookChapters, getBookItem, getBooks } from "custom-sdk-js";
 
 const request = async () => {
@@ -26,8 +26,9 @@ const request = async () => {
 }
 ```
 
-### Get one book 
-```sh
+### Get one book
+
+```js
 const request = async (id) => {
   const book = await getBookItem(id);
   const booksList = books.docs;
@@ -36,7 +37,8 @@ const request = async (id) => {
 ```
 
 ### Get book chapters
-```sh
+
+```js
 const request = async (id) => {
   const bookChapters = await getBookChapters(id);
   const bookChaptersList = books.docs;
@@ -44,5 +46,10 @@ const request = async (id) => {
 }
 ```
 
+### Pagination params
 
-# Tested with create-react-app
+```js 
+const chapters = await getBookChapters(id, { sort: 'chapterName:desc', page: 2, offset: 10, limit: 100 });
+```
+
+# Tested with create-react-app application
